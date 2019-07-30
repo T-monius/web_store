@@ -1,0 +1,74 @@
+@import url("ls_reset.css");
+
+body {
+  background: #ffd505;
+  width: 950px;
+  font: 16px "Helvetica", "Arial", sans-serif;
+}
+
+header {
+  background: #047ec1;
+  color: #fffaff;
+  font-size: 40px;
+  padding: 35px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  padding-left: 25px;
+}
+
+header, main {
+  width: 900px;
+  margin: 0 50px;
+}
+
+main {
+  background: #ececec;
+  padding: 30px 20px;
+}
+
+h2 {
+  font-size: 36px;
+  color: #1b2429;
+}
+
+.products {
+  overflow: hidden;
+}
+
+.figure {
+  display: inline-block;
+  float: left;
+  margin: 15px 0;
+}
+
+.img_container {
+  height: 175px;
+  width: 200px;
+  background: #fff;
+  text-align: center;
+  margin-right: 15px;
+}
+
+img {
+  height: 135px;
+  margin: 15px auto;
+}
+
+.caption {
+  background: #fff;
+  width: 200px;
+  color: #292c3b;
+  padding-left: 15px;
+}
+
+.caption p:first-of-type {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caption p:last-of-type {
+}
